@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    /* border: 1px solid red; */
+}
+#banner{
+    width: 100%;
+    height: 120vh;
+    background-image: url(33.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+header{
+padding: 35px 10%;
+}
+#logo{
+    float: left;
+}
+nav{
+float: right;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+#flag{
+    margin-left: 30px;
+}
+#banner h1{
+    text-align: center;
+   
+}
+#banner .noori1, #banner h1, #banner .noori2{
+    color: #129BFF;
+    margin-top: 40px;
+   /* margin-left: 20px; */
+}
+
+#banner h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+#banner .noori3{
+  color: white;
+  font-size: 50px;
+margin-left: 50%;
+margin-top: 32%;
+}
+#main2{
+    width: 100%;
+    height: 100vh;
+
+}
+#main2 h1{
+    text-align: center;
+    margin-top: 30px;
+}
+#main2 i{
+    color: #129BFF;
+}
+#main2 img{
+    width: 600px;
+    height: 530px;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+#main2content{
+    border: 1px solid darkgray;
+    width: 560px;
+    height: 350px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 6% 6%;
+    vertical-align: top;
+}
+#main2content button{
+    font-size: 20px;
+    color: #129BFF;
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+}
+#main2content p{
+    font-size: 20px;
+}
+#main3{
+    width: 100%;
+    height: 90vh;
+}
+#main3 h1{
+    text-align: center;
+}
+#main3 img{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+#main3 i{
+    color: #129BFF;
+    font-size: 18px;
+}
+#main3content{
+    width: 570px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 6% 6%;
+    border: 1px solid darkgrey;
+}
+#main3content p{
+    font-size: 20px;
+}
+#main3content button{
+    font-size: 20px;
+    color: #129BFF;
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+}
+#main4{
+width: 100%;
+height: 90vh;
+}
+#main4 img{
+    width: 600px;
+    height: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+#input4{
+    width: 720px;
+    height: 70vh;
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+    font-size: 25px;
+    padding: 2% 2%;
+    /* margin-top: -50px; */
+}
+#input4 .noori10{
+    color: blue;
+    padding: 1%;
+    font-size: 20px;
+}
+#input4 p{
+    font-size: 20px;
+}
+#inputfname{
+    width: 90%;
+    height: 50px;
+    /* border: 1px solid; */
+    margin-top: 70px;
+    /* margin-left: 30px; */
+}
+#first{
+    width: 300px;
+    height: 47px;
+    
+    
+}
+#email{
+   width:300px ;
+   height: 47px; 
+   margin-left: 30px;
+}
+#inputlp{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    /* margin-left: 30px; */
+}
+#lname{
+    width: 300px;
+    height: 47px;
+}
+#lp{
+    width:300px ;
+    height: 47px; 
+    margin-left: 30px; 
+}
+#msg{
+    width: 645px;
+    height: 150px;
+    border: 1px solid;
+    /* margin-left: 30px; */
+    margin-top: 20px;
+}
+#plus{
+    width: 270px;
+    height: 50px;
+    /* border: 1px solid; */
+    margin-left: 380px;
+}
+#plus input{
+    width: 70px;
+    height: 47px;
+    background-color: whitesmoke;
+}
+#plus button{
+    width: 80px;
+    height: 50px;
+    border:1px solid #00AAFF;
+    color: #00AAFF;
+    font-size: 20px;
+}
+#mainsaven{
+    width: 80%;
+    height: 70vh;
+    background-color: rgb(26, 24, 24);
+    /* border-bottom: 1px solid white; */
+    padding: 80px 10%;
+}
+
+#flaris{
+    float: left;
+}
+#bigbox{
+    width: 500px;
+    height: 370px;
+    float: right;
+}
+
+.smallbox{
+    width: 32%;
+    height: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    vertical-align: top;
+    padding: 1px;
+}
+
+
+.lione{
+    margin-top: 20px;
+    display: block;
+    font-size: 15px;
+    color: rgb(141, 133, 133);
+}
+#longbox{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    color: white;
+ 
+}
+#longbox h1{
+    font-size: 25px;
+}
+#email1{
+   width: 95%;
+  
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 2% 2%;
+}
+
+#button3{
+   background-color: transparent;
+  border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 2% 43%;
+    color: white;
+}
+#bottomline{
+    border: 1px solid white;
+    width: 100%;
+    /* background-color: white; */
+    margin-top: 380px;
+}
+
+#last{
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+}
+
+.lastpic{
+    float: right;
+    margin-left: 5px;
+}

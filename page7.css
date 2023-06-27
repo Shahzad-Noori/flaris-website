@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-image: none;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(bann.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+header {
+    padding: 35px 10%;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#flag {
+    margin-left: 30px;
+}
+
+#banner h1 {
+    text-align: center;
+
+}
+
+#banner .noori1,
+#banner h1,
+#banner .noori2 {
+    color: #129BFF;
+    margin-top: 40px;
+    /* margin-left: 20px; */
+}
+
+#banner h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#main2 {
+    width: 90%;
+    padding: 5%;
+}
+
+#contect {
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+#contect .noori1 {
+    color: #129BFF;
+    font-size: 20px;
+}
+
+#contect h1 {
+    margin-top: 30px;
+}
+
+#img1 {
+    margin-top: 40px;
+    font-size: 16px;
+
+}
+
+#img1 img {
+    width: 20px;
+    height: 20px;
+
+}
+
+#img1 img,
+#img1 p {
+    display: inline-block;
+}
+
+#img1 p {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#img2 {
+    margin-top: 20px;
+}
+
+#img2 img,
+#img2 p {
+    display: inline-block;
+}
+
+#img2 p {
+    margin-left: 30px;
+
+}
+
+#img3 {
+    margin-top: 20px;
+}
+
+#img3 img,
+#img3 p {
+    display: inline-block;
+}
+
+#img3 p {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#img4 p {
+    color: #129BFF;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#contect h3 {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#pics {
+    width: 660px;
+    display: inline-block;
+    margin-left: 120px;
+    position: relative;
+}
+
+#pic1 {
+    width: 218px;
+    margin-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+   margin-left: -1px;
+}
+
+#pic1 img {
+    width: 220px;
+    height: 120px;
+    display: block;
+   
+}
+
+#pic2 {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+   position: absolute;
+   left: 219px;
+  
+}
+
+#pic2 img {
+    width: 220px;
+    height: 120px;
+    display: block;
+}
+
+#pic3 {
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    left: 439px;
+}
+
+#pic3 img {
+    width: 220px;
+    height: 120px;
+    display: block;
+    
+}
+#map{
+    width: 100%;
+    height: 80vh;
+}
+iframe{
+    width: 100%;
+    height: 80vh;
+}
+
+#main6 {
+    width: 100%;
+    height: 80vh;
+    padding: 1% 0;
+}
+
+#main6 img {
+    width: 40%;
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#main6box {
+    width: 800px;
+    height: 70vh;
+    padding: 2% 2%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#main6box .noori2 {
+    color: #129BFF;
+    font-size: 20px;
+}
+
+#main6box .line1 {
+    width: 340px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#main6box .line2 {
+    width: 340px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#dot {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    font-size: 20px;
+    border: 1px solid;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+    /* display: block; */
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    display: block;
+    cursor: pointer;
+
+}
+
+#msg {
+    width: 720px;
+    height: 200px;
+    margin-top: 30px;
+
+}
+
+#plus {
+
+    margin-left: 78%;
+    margin-top: 10px;
+}
+
+#plus input {
+    /* width: 50px; */
+    height: 43px;
+    background-color: rgb(224, 209, 209);
+}
+
+#plus button {
+    border: 1px solid #129BFF;
+    padding: 0% 10%;
+    height: 48px;
+    background-color: white;
+    color: #129BFF;
+    font-size: 20px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+
+#plus .noori1 {
+    opacity: 0;
+    transition: all .5s;
+    margin-left: -10px;
+}
+
+#plus button:hover .noori1 {
+    opacity: 1;
+    margin-left: 2px;
+    background-color: white;
+    cursor: pointer;
+color: #129BFF;
+}
+
+#main7 {
+    padding: 5% 10%;
+    background-color: #000A27;
+}
+
+.box7 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 10px;
+    vertical-align: top;
+    color: white;
+    font-size: 20px;
+}
+
+.box7 li {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.bigbox {
+    width: 450px;
+    height: 300px;
+    margin-left: 60%;
+    margin-top: -17%;
+    color: white;
+    font-size: 25px;
+}
+
+#email {
+    width: 85%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.bigbox button {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    background-color: #00142B;
+    border: 3px solid white;
+}
+
+.bigbox .noori1 {
+    opacity: 0;
+    margin-left: -5px;
+    transition: all .5s;
+    color: white;
+}
+
+button:hover .noori1 {
+    margin-left: 15px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: #000A27;
+}
+
+.bigbox h6 {
+    margin-top: 30px;
+}
+
+#linee {
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+#main7 p {
+    width: 200px;
+    color: white;
+    margin-top: 40px;
+}
+
+#last {
+    width: 150px;
+    height: 50px;
+    float: right;
+    margin-top: -40px;
+}
+
+#last img {
+    margin-left: 10px;
+    cursor: pointer;
+}

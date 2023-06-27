@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    /* border: 1px solid red; */
+}
+
+#banner {
+    width: 100%;
+    height: 130vh;
+    background-image: url(banner.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 35px 10%;
+
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#flag1 {
+    margin-left: 30px;
+}
+
+#maincontent1{
+    text-align: center;
+}
+
+#maincontent1 .noori1, #maincontent1 h1, #maincontent1 .noori2{
+    display: inline-block;
+    color: blue;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+#maincontent2 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.noori3 {
+    font-size:  30px;
+    color: #E5E5E5;
+    margin-left: 45%;
+    margin-top: 510px;
+}
+
+#maintow{
+    width: 100%;
+    height: 100vh;
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+
+#maincontent3{
+   text-align: center;
+}
+#maincontent3 .noori4, #maincontent3 h1, #maincontent3 .noori5{
+    display: inline-block;
+    /* color: blue; */
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+#maincontent3 .noori4, #maincontent3 .noori5{
+    color: blue;
+}
+
+.paraone{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#mainthree{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+#paratow{
+    text-align: center;
+    margin-top: 40px;
+}
+.noori6{
+    /* text-align: center; */
+    color: blue;
+    font-size: 30px;
+    margin-left: 50%;
+}
+
+#mainfore{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 1px;
+}
+
+
+
+.pricelist{
+    width: 85%;
+    height: 70px;
+    border: 1px solid rgb(194, 188, 188);
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.haidding{
+    width: 22.2%;
+    font-size: 20px;
+    /* height: 50px; */
+    display: inline-block;
+    margin-top :40px;
+    margin-left: 100px;
+}
+
+.pricelistone{
+    width: 32.7%;
+    height: 40px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#pic1{
+    margin-left: 90px;
+}
+
+
+#mainfive{
+    width: 100%;
+    height: 120vh;
+    background-image: url(3.jpg);
+    background-size: cover;
+    padding: 1px;
+}
+
+#fivecontent{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#fivecontent h1{
+   color: white;
+}
+
+.noori7,.noori8{
+    color: blue;
+}
+
+#parathree{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.own{
+    /* width: 200px; */
+    display: inline-block;
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+    margin-top: 300px;
+  margin-left: 420px;
+}
+
+#fivebox1{
+width: 300px;
+height: 200px;
+display: inline-block;
+margin-left: 350px;
+margin-top: 200px;
+font-size: 30px;
+color: white;
+text-align: center;
+}
+#fivebox2{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.button1{
+    color: #07A7FB;
+    font-size: 25px;
+    padding: 5% 10%;
+    background-color: #1E1E1E;
+    border: 1px solid #07A7FB;
+    margin-top: 70px;
+}
+.noori9{
+    color: white;
+    font-size: 20px;
+}
+
+#mainsix{
+    width: 100%he;
+    height: 80vh;
+    background-image: url(4.jpg);
+    background-size: cover;
+    color: white;
+    padding: 1px;
+}
+#mainsix h1{
+    text-align: center;
+    margin-top: 150px;
+}
+
+#button2{
+    padding: 1% 4%;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-top: 80px;
+    border: 1px solid white;
+}
+
+#mainsaven{
+    width: 80%;
+    height: 70vh;
+    background-color: rgb(26, 24, 24);
+    /* border-bottom: 1px solid white; */
+    padding: 80px 10%;
+}
+
+#flaris{
+    float: left;
+}
+#bigbox{
+    width: 500px;
+    height: 370px;
+    float: right;
+}
+
+.smallbox{
+    width: 32%;
+    height: 200px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    vertical-align: top;
+    padding: 1px;
+}
+
+
+.lione{
+    margin-top: 20px;
+    display: block;
+    font-size: 15px;
+    color: rgb(141, 133, 133);
+}
+#longbox{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    color: white;
+ 
+}
+#longbox h1{
+    font-size: 25px;
+}
+#email1{
+   width: 95%;
+  
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 2% 2%;
+}
+
+#button3{
+   background-color: transparent;
+  border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 2% 43%;
+    color: white;
+}
+#bottomline{
+    border: 1px solid white;
+    width: 100%;
+    /* background-color: white; */
+    margin-top: 380px;
+}
+
+#last{
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 30px;
+}
+
+.lastpic{
+    float: right;
+    margin-left: 5px;
+}
+
